@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Fragrance</title>
+
+          <style>
+                    * {
+                              margin: 0;
+                              padding: 0;
+                              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                              font-size: 20px;
+                              letter-spacing: 2px;
+                              font-variant: small-caps;
+                              color: goldenrod;
+                    }
+
+
+                    header,
+                    main,
+                    footer {
+                              margin: 1px;
+                    }
+
+                    .nav {
+                              background-color: #fff;
+                              display: flex;
+                    }
+
+                    .nav-content {
+                              flex-basis: 50%;
+                              display: flex;
+                              justify-content: left;
+                              align-items: center;
+                    }
+
+                    ul {
+                              display: flex;
+                    }
+
+                    .nav-links {
+                              list-style-type: none;
+                              padding: 10px 20px;
+                              cursor: pointer;
+                              transition: all 0.5S ease-in-out;
+                              margin: auto;
+                              text-decoration: none;
+                    }
+
+                    .nav-links:hover {
+                              background-color: rgba(218, 165, 32, 0.41);
+                    }
+
+                    .nav-logo-item {
+                              display: flex;
+                              justify-content: right;
+                              margin-right: 5%;
+                    }
+
+                    .nav-logo {
+                              width: 15%;
+                    }
+
+                    .nav-logout-button {
+                              padding: 10px 20px;
+                              height: max-content;
+                              margin: auto;
+                              text-decoration: none;
+                              color: black;
+                    }
+
+                    .product-shop {
+                              display: flex;
+                              justify-content: space-between;
+                              align-items: center;
+                    }
+
+                    .product-iamge-banner {
+                              flex-basis: 50%;
+                              height: 380px;
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                    }
+
+                    .product-iamge-banner>img {
+                              width: 90%;
+                            
+                    }
+
+                    .product-data-purhcase {
+                              flex-basis: 50%;
+                              height: 380px;
+                    }
+
+                    .card {
+                              border-radius: 10px;
+                              height: auto;
+                              overflow: hidden;
+
+                              margin: 20px;
+                    }
+
+                    .card-item {
+                              padding: 20px;
+                    }
+
+                    .card-item img {
+                              width: 100%;
+                              height: 300px;
+                              margin: auto 0;
+                              border-top-left-radius: 10px;
+                              border-top-right-radius: 10px;
+                    }
+
+                    .card-item h3 {
+                              margin-top: 0;
+                    }
+
+                    .card-item:last-child {
+                              text-align: center;
+                              font-weight: bold;
+                              font-size: 20px;
+                              padding: 10px 0;
+                              margin-bottom: 10px;
+                              display: flex;
+                              justify-content: space-around;
+                    }
+
+                    .card-item:last-child>.price-purchase {
+                              width: 50%;
+                    }
+
+                    .card-item:last-child>.price-purchase:first-child {
+                              text-align: right;
+                              margin-right: 5%;
+                    }
+
+                    .card-item:last-child>.price-purchase:last-child {
+                              text-align: left;
+                              margin-left: 5%;
+                    }
+
+
+                    .btn {
+                              list-style-type: none;
+                              padding: 10px 20px;
+                              cursor: pointer;
+                              transition: all 0.5S ease-in-out;
+                              margin: auto;
+                              text-decoration: none;
+                              border-radius: 0.51rem;
+                              border: 1px solid rgba(218, 165, 32, 0.7);
+                              
+                    }
+
+                    .btn:hover {
+                              background-color: rgba(218, 165, 32, 0.41);
+                              border: 3px solid rgba(218, 165, 32, 0.7);
+                    }
+
+                    .copy-right {
+                              padding: 1%;
+                              background-color: #333;
+                              text-align: center;
+                              border: 1px solid black;
+                    }
+          </style>
+</head>
+
+<body>
+          <header>
+                    <nav class="nav">
+                              <div class="nav-options nav-content">
+                                        <ul>
+                                                  <a href="index.html">
+                                                            <li class="nav-links">Home</li>
+                                                  </a>
+                                                  <a href="shop.html">
+                                                            <li class="nav-links">Shop</li>
+                                                  </a>
+                                                  <a href="tips.html">
+                                                            <li class="nav-links">Beauty Tips</li>
+                                                  </a>
+                                                  <a href="details.html">
+                                                            <li class="nav-links">My Details</li>
+                                                  </a>
+
+                                                  <a href="login.html">
+                                                            <li class="nav-links">Login</li>
+                                                  </a>
+                                                  <a href="logout.html">
+                                                    <li class="nav-links">Logout</li>
+                                          </a>
+                                        </ul>
+                              </div>
+                              <div class="nav-logo-item nav-content">
+                                        <img src="cosmetic-logo-removebg-preview.png" alt=" brand logo"
+                                                  class="nav-logo">
+                              </div>
+                    </nav>
+          </header>
+
+          <main>
+
+                    <section class="product-shop">
+                              <div class="product-iamge-banner">
+                                        <img src="fragrance-main-banner01.jpg" alt="cleanser banner"
+                                                  style="transform: scale(0.8);">
+                              </div>
+                              <div class="product-data-purhcase">
+                                        <div class="card">
+                                                 
+                                                  <div class="card-item">
+                                                            <h3>Mens Perfume</h3>
+                                                  </div>
+                                                  <div class="card-item">Indulge the enchanting allure of Etherel Blossom a fregrance that embodies the essence
+                                                            of essencde of femminity and grace inspired by the delicate beauty of blooming flowers at dwan this captivating
+                                                            scent transport you to serene garden filed with the frehnes of spring.
+                                                  </div>
+                                                  <div class="card-item">
+                                                            <div class="price-purchase">Price <span
+                                                                                style="text-decoration: line-through; font-size: small;">$149.99</span>
+                                                                      <span class="price"
+                                                                                style="text-decoration:none;">$99.99</span>
+                                                            </div>
+                                                            <div class="price-purchase">
+                                                                      <span class="purchase"> <a href="purchase.html"
+                                                                                          class="btn">purchase</a>
+                                                                      </span>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </section>
+
+                    <section class="product-shop">
+                              <div class="product-data-purhcase">
+                                        <div class="card">
+                                                 
+                                                  <div class="card-item">
+                                                            <h3>cleanser</h3>
+                                                  </div>
+                                                  <div class="card-item">Indulge the enchanting allure of Etherel Blossom a fregrance that embodies the essence
+                                                            of essencde of femminity and grace inspired by the delicate beauty of blooming flowers at dwan this captivating
+                                                            scent transport you to serene garden filed with the frehnes of spring.
+                                                  </div>
+                                                  <div class="card-item">
+                                                            <div class="price-purchase">Price <span
+                                                                                style="text-decoration: line-through; font-size: small;">$149.99</span>
+                                                                      <span class="price"
+                                                                                style="text-decoration:none;">$99.99</span>
+                                                            </div>
+                                                            <div class="price-purchase">
+                                                                      <span class="purchase"> <a href="purchase.html"
+                                                                                          class="btn">purchase</a>
+                                                                      </span>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+                              <div class="product-iamge-banner">
+                                        <img src="fragrance-main-banner02.jpg" alt="cleanser banner"
+                                                  style="transform:scale(0.9);">
+                              </div>
+                    </section>
+
+                    <section class="product-shop">
+                              <div class="product-iamge-banner">
+                                        <img src="fragrance-main-banner03.jpg" alt="cleanser banner">
+                              </div>
+                              <div class="product-data-purhcase">
+                                        <div class="card">
+                                                 
+                                                  <div class="card-item">
+                                                            <h3>cleanser</h3>
+                                                  </div>
+                                                  <div class="card-item">Indulge the enchanting allure of Etherel Blossom a fregrance that embodies the essence
+                                                            of essencde of femminity and grace inspired by the delicate beauty of blooming flowers at dwan this captivating
+                                                            scent transport you to serene garden filed with the frehnes of spring.
+                                                  </div>
+                                                  <div class="card-item">
+                                                            <div class="price-purchase">Price <span
+                                                                                style="text-decoration: line-through; font-size: small;">$149.99</span>
+                                                                      <span class="price"
+                                                                                style="text-decoration:none;">$99.99</span>
+                                                            </div>
+                                                            <div class="price-purchase">
+                                                                      <span class="purchase"> <a href="purchase.html"
+                                                                                          class="btn">purchase</a>
+                                                                      </span>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </section>
+
+
+          </main>
+          <footer>
+                    <div class="copy-right"> &copy; RIYAA POPAT</div>
+
+          </footer>
+</body>
+
+</html>

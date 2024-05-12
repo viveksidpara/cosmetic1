@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Beauty Tips</title>
+
+          <style>
+                    * {
+                              margin: 0;
+                              padding: 0;
+                              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                              font-size: 20px;
+                              letter-spacing: 2px;
+                              font-variant: small-caps;
+                              color: goldenrod;
+                    }
+
+                    /* 
+                    
+                    header part 
+                    
+                    
+                    */
+
+                    header,
+                    main,
+                    footer {
+                              margin: 1px;
+                    }
+
+                    .nav {
+                              background-color: #fff;
+                              display: flex;
+                    }
+
+                    .nav-content {
+                              flex-basis: 50%;
+                              display: flex;
+                              justify-content: left;
+                              align-items: center;
+                    }
+
+                    ul {
+                              display: flex;
+                    }
+
+                    .nav-links {
+                              list-style-type: none;
+                              padding: 10px 20px;
+                              cursor: pointer;
+                              transition: all 0.5S ease-in-out;
+                              margin: auto;
+                              text-decoration: none;
+                              /* color: black; */
+                    }
+
+                    .nav-links:hover {
+                              background-color: rgba(218, 165, 32, 0.41);
+                              border-radius: 0.51rem;
+                    }
+
+                    .nav-logo-item {
+                              display: flex;
+                              /* justify-content: space-between; */
+                              justify-content: right;
+                              margin-right: 5%;
+                    }
+
+                    .nav-logo {
+                              width: 15%;
+                    }
+
+                    .nav-logout-button {
+                              padding: 10px 20px;
+                              height: max-content;
+                              margin: auto;
+                              text-decoration: none;
+                              color: black;
+                    }
+
+                    /*
+                    
+                    main area 
+                    
+                    */
+
+                    .faq-container {
+                              /* border: 1px solid black;  */
+                              margin: 2% 5%;
+                              padding: 2%;
+                    }
+
+                    .question-box {
+                              /* border: 1px solid black;  */
+                              /* background-color: rgba(255, 255, 255, 0.35); */
+                              border-radius: 0.51rem;
+                              padding: 1%;
+                              margin: 1%;
+                              font-size: x-large;
+                    }
+
+                  
+                    .question {
+                              font-size: x-large;
+                              color: rgb(25, 6, 78) !important;
+                              text-decoration: none;
+                              cursor: pointer;
+                    }
+
+                    .answer {
+                              /* background-color: rgba(255, 255, 255, 0.5); */
+                              /* border: 1px solid black; */
+                              border-radius: 0.251rem;
+                              line-height: 1.5rem;
+                              padding: 1%;
+                              margin: 1% 5%;
+                              font-size: large;
+                              /* display: none; */
+                    }
+
+                    /*  
+                    
+                    footer
+
+                    */
+
+                    .copy-right {
+                              padding: 1%;
+                              background-color: #333;
+                              /* height: 50px; */
+                              text-align: center;
+                              border: 1px solid black;
+                    }
+          </style>
+
+
+</head>
+
+<body>
+          <header>
+                    <nav class="nav">
+                              <div class="nav-options nav-content">
+                                        <ul>
+                                                  <a href="index.html">
+                                                            <li class="nav-links">Home</li>
+                                                  </a>
+                                                  <a href="shop.html">
+                                                            <li class="nav-links">Shop</li>
+                                                  </a>
+                                                  <a href="tips.html">
+                                                            <li class="nav-links">Beauty Tips</li>
+                                                  </a>
+                                                  <a href="details.html">
+                                                            <li class="nav-links">My Details</li>
+                                                  </a>
+                                                  <a href="login.html">
+                                                            <li class="nav-links">Login</li>
+                                                  </a>
+                                                  <a href="logout.html">
+                                                    <li class="nav-links">Registen</li>
+                                          </a>
+                                        </ul>
+                              </div>
+                              <div class="nav-logo-item nav-content">
+                                        <img src="cosmetic-logo-removebg-preview.png" alt=" brand logo"
+                                                  class="nav-logo">
+                              </div>
+                    </nav>
+          </header>
+
+          <main>
+                    <div class="faq-container">
+                              <div class="question-box">
+                                        <div class="question">What skin type is suitable for Dior products?</div>
+                                        <p class="answer bg">Dior products are suitable for a diverse range of
+                                                  skin types, including dry, oily, combination, and sensitive skin. Our
+                                                  formulations are carefully crafted to cater to the unique needs of
+                                                  each skin type, providing effective solutions for hydration, balance,
+                                                  and rejuvenation. Whether you have dry patches, excess oil, or
+                                                  sensitivity, our products are designed to deliver visible results
+                                                  while ensuring compatibility and comfort for your skin.</p>
+
+                              </div>
+
+                              <div class="question-box bg">
+                                        <div class="question">How do I determine my correct foundation shade?</div>
+                                        <p class="answer">Determining your perfect foundation shade involves identifying
+                                                  your undertone (warm, cool, or neutral) and shade depth (light,
+                                                  medium, or dark). Try swatching shades on your jawline in natural
+                                                  light, considering coverage preference and skin concerns like redness
+                                                  or discoloration. Utilize shade-matching services offered by beauty
+                                                  retailers for personalized guidance in finding the ideal match for
+                                                  your complexion.
+                                        </p>
+
+                              </div>
+
+                              <div class="question-box">
+                                        <div class="question">Are Dior products cruelty-free?
+                                        </div>
+                                        <p class="answer bg">As an ethical brand deeply committed to animal welfare,
+                                                  Dior proudly confirms that all our products are cruelty-free. We
+                                                  firmly stand against animal testing at any stage of production and
+                                                  meticulously ensure that our ingredients are ethically sourced. Our
+                                                  dedication to cruelty-free practices reflects our core values and
+                                                  commitment to environmental and ethical responsibility.</p>
+
+
+                              </div>
+
+                              <div class="question-box bg">
+                                        <div class="question">Can I return or exchange products if I'm not satisfied?
+                                        </div>
+                                        <p class="answer">
+                                                  We understand that your satisfaction is paramount, which is why we
+                                                  stand behind every Dior purchase with our comprehensive return or
+                                                  exchange policy. If you find yourself less than completely satisfied,
+                                                  you have the flexibility to return or exchange your product within a
+                                                  generous 7-day window. Your happiness and confidence in our products
+                                                  are our top priorities, and we're committed to ensuring your
+                                                  experience with Dior exceeds expectations.
+                                        </p>
+
+
+                              </div>
+
+                              <div class="question-box">
+                                        <div class="question">What are the main ingredients used in Dior
+                                                  skincare products?
+                                        </div>
+                                        <p class="answer bg">The main ingredients used in Dior skincare products
+                                                  vary depending on the product line and formulation. However, common
+                                                  ingredients may include hyaluronic acid for hydration, vitamin C for
+                                                  brightening, and retinol for anti-aging. Each product is carefully
+                                                  crafted with effective and high-quality ingredients to address
+                                                  specific skincare concerns.</p>
+                              </div>
+                              <div class="question-box bg">
+                                        <div class="question">How should I store my cosmetics to prolong their shelf
+                                                  life?
+                                        </div>
+
+                                        <p class="answer">
+                                                  Lto prolong the shelf life of your cosmetics, store them in a cool,
+                                                  dry place away from direct sunlight and moisture. Keep lids tightly
+                                                  closed to prevent contamination, and avoid exposing them to extreme
+                                                  temperatures. Additionally, storing products in a clean and organized
+                                                  manner can help maintain their quality over time.</p>
+                              </div>
+                              <div class="question-box">
+                                        <div class="question"> Are Dior products safe to use during pregnancy?
+                                        </div>
+
+                                        <p class="answer bg">
+                                                  At Dior, the safety and well-being of our customers are paramount. Our
+                                                  products are meticulously formulated to meet rigorous safety
+                                                  standards. While the majority of our ingredients are deemed safe for
+                                                  use during pregnancy, we highly recommend consulting with your
+                                                  healthcare provider for personalized advice. Your peace of mind
+                                                  throughout your journey is our utmost priority, and we're here to
+                                                  support you every step of the way.
+                                        </p>
+                              </div>
+                              <div class="question-box bg">
+
+                                        <div class="question">How can I contact your support team for further
+                                                  assistance?</div>
+
+                                        <p class="answer">
+                                                  If you have more questions or need assistance with our cosmetics, our
+                                                  support team is here to help. You can reach out to our support team
+                                                  through<mark
+                                                            style="background-color: #fff; padding: 5px; border-radius: 5px; margin: 1px;">
+                                                            +91 9974717832 </mark>or email at
+                                                  <mark
+                                                            style="background-color: #fff; padding: 5px; border-radius: 5px;">
+                                                            m.dujrejiya31124@gmail.com
+                                                  </mark>. We're available via chat or a dedicated support portal to
+                                                  assist with any inquiries or issues you may have, ensuring that your
+                                                  experience with our cosmetics is seamless.
+                                        </p>
+                              </div>
+
+                    </div>
+          </main>
+
+          <footer>
+                    <div class="copy-right"> &copy; RIYAA POPAT </div>
+          </footer>
+</body>
+
+</html>

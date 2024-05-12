@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>My Details</title>
+
+          <style>
+                    * {
+                              margin: 0;
+                              padding: 0;
+                              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                              font-size: 20px;
+                              letter-spacing: 2px;
+                              font-variant: small-caps;
+                              color: goldenrod;
+                    }
+
+                    /* 
+                    
+                    header part 
+                    
+                    
+                    */
+
+                    header,
+                    main,
+                    footer {
+                              margin: 1px;
+                    }
+
+                    .nav {
+                              background-color: #fff;
+                              display: flex;
+                    }
+
+                    .nav-content {
+                              flex-basis: 50%;
+                              display: flex;
+                              justify-content: left;
+                              align-items: center;
+                    }
+
+                    ul {
+                              display: flex;
+                    }
+
+                    .nav-links {
+                              list-style-type: none;
+                              padding: 10px 20px;
+                              cursor: pointer;
+                              transition: all 0.5S ease-in-out;
+                              margin: auto;
+                              text-decoration: none;
+                              /* color: black; */
+                    }
+
+                    .nav-links:hover {
+                              background-color: rgba(218, 165, 32, 0.41);
+                              border-radius: 0.51rem;
+                    }
+
+                    .nav-logo-item {
+                              display: flex;
+                              /* justify-content: space-between; */
+                              justify-content: right;
+                              margin-right: 5%;
+                    }
+
+                    .nav-logo {
+                              width: 15%;
+                    }
+
+                    .nav-logout-button {
+                              padding: 10px 20px;
+                              height: max-content;
+                              margin: auto;
+                              text-decoration: none;
+                              color: black;
+                    }
+
+                    table {
+                              width: 100%;
+                              border-collapse: collapse;
+                              margin-bottom: 20px;
+                    }
+
+                    table th,
+                    table td {
+                              padding: 10px;
+                    }
+
+                    table th {
+                              text-align: left;
+                    }
+
+                    /*  */
+
+                    .container {
+                              max-width: 90%;
+                              margin: 50px auto;
+                              padding: 20px;
+                              background-color: #fff;
+                              border-radius: 5px;
+                    }
+
+                    h1 {
+                              text-align: center;
+                              margin-bottom: 20px;
+                              font-size: xx-large;
+                              text-decoration: underline;
+                    }
+
+                    /*  
+                    
+                    footer
+
+                    */
+
+                    .copy-right {
+                              padding: 1%;
+                              background-color: #333;
+                              /* height: 50px; */
+                              text-align: center;
+                              border: 1px solid black;
+                    }
+          </style>
+</head>
+
+<body>
+
+          <header>
+                    <nav class="nav">
+                              <div class="nav-options nav-content">
+                                        <ul>
+                                                  <a href="index.html">
+                                                            <li class="nav-links">Home</li>
+                                                  </a>
+                                                  <a href="shop.html">
+                                                            <li class="nav-links">Shop</li>
+                                                  </a>
+                                                  <a href="tips.html">
+                                                            <li class="nav-links">Beauty Tips</li>
+                                                  </a>
+                                                  <a href="details.html">
+                                                            <li class="nav-links">My Details</li>
+                                                  </a>
+                                                  <a href="login.html">
+                                                            <li class="nav-links">Login</li>
+                                                  </a>
+                                                  <a href="logout.html">
+                                                    <li class="nav-links">Registen</li>
+                                          </a>
+                                        </ul>
+                              </div>
+                              <div class="nav-logo-item nav-content">
+                                        <img src="cosmetic-logo-removebg-preview.png" alt=" brand logo"
+                                                  class="nav-logo">
+                              </div>
+                    </nav>
+          </header>
+
+          <main>
+                    <div class="container">
+                              <h1>My Details</h1>
+
+                              <table>
+                                        <tr>
+                                                  <th colspan="2">User Details</th>
+                                        </tr>
+                                        <tr>
+                                                  <td>Email:</td>
+                                                  <td>m.dudhrejiya31124@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                                  <td>Password:</td>
+                                                  <td>*********</td>
+                                        </tr>
+                                        <tr>
+                                                  <td>Address:</td>
+                                                  <td>123 Street, Sardhar, Rajkot</td>
+                                        </tr>
+                                        <tr>
+                                                  <th colspan="2">Bank Details</th>
+                                        </tr>
+                                        <tr>
+                                                  <td>Bank Name:</td>
+                                                  <td>Bank of Cosmetics</td>
+                                        </tr>
+                                        <tr>
+                                                  <td>Branch:</td>
+                                                  <td>City Center Branch</td>
+                                        </tr>
+                                        <tr>
+                                                  <td>IFSC Code:</td>
+                                                  <td>ABCD123456</td>
+                                        </tr>
+                                        <tr>
+                                                  <td>Account Number:</td>
+                                                  <td>1234567890</td>
+                                        </tr>
+                                        <tr>
+                                                  <th colspan="2">Card Details</th>
+                                        </tr>
+                                        <tr>
+                                                  <td>Card Number:</td>
+                                                  <td>1234 5678 9012 3456</td>
+                                        </tr>
+                                        <tr>
+                                                  <td>CVV:</td>
+                                                  <td>123</td>
+                                        </tr>
+                              </table>
+                    </div>
+          </main>
+
+
+          <footer>
+
+                    <div class="copy-right"> &copy; RIYAA POPAT </div>
+
+          </footer>
+
+</body>
+
+</html>
